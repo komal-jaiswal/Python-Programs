@@ -41,3 +41,13 @@ print(round(4.7));
 print(ceil(3.4))
 print(sqrt(36));
 
+#-------------------------how to take input from user in python--------------------------------------------
+name=input("Enter your Name: ");
+age=input("Enter your age : ");
+print("Hello  "+ name +" your age is "+ age);
+
+num1=input("Enter first number ");
+num2=input("Enter second number");
+#bydefault python treat user entered number as string so convert number before showing desired result
+result=float(num1)+ float(num2);
+print(result);
