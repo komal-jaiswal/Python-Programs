@@ -99,3 +99,10 @@ friends2=friends.copy();
 print(friends2);
 friends.clear(); # clear the entire list
 print(friends);
+
+#------------------------------------------Tuples in Python----------------------------------------
+#tuples are immutable list is mutable
+coordinates=(4,5);
+#we cant modify one tuple is dclared as we cant add or remove element inside tuple
+print(coordinates);
+print(coordinates[1]);
