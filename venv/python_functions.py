@@ -54,6 +54,24 @@ elif operator == "/":
 else:
     print("Invalid input")
 
+#-----------------------------------Python Dictonary------------------------------------------
+monthConversions={
+    "Jan":"January",
+    2:"February",
+    3:"March",
+    4:"April",
+    5:"May",
+    "Jun":"June",
+    "Jul":"July",
+    8:"August",
+    9:"September",
+    10:"Ocober",
+    "Nov":"November",
+    "Dec":"December"
+}
+print(monthConversions["Jun"]);
+print(monthConversions.get(5));
+print(monthConversions.get("Fake","default"))3
 
 
 
