@@ -39,3 +39,21 @@ def max_number(num1,num2,num3):
 result=max_number(3,5,88)
 print(str(result) +"  is largest number")
 
+#----------------------------Calculator--------------------------------------------------------------------
+num1=float(input("Enter first number"))
+operator=input("Enter operator");
+num2=float(input("Enter third number"));
+if operator == "+":
+    print(num1 + num2)
+elif operator =="-":
+    print(num1 - num2)
+elif operator == "*":
+    print(num1 * num2)
+elif operator == "/":
+    print(num1 / num2)
+else:
+    print("Invalid input")
+
+
+
+
