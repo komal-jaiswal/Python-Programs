@@ -71,7 +71,25 @@ monthConversions={
 }
 print(monthConversions["Jun"]);
 print(monthConversions.get(5));
-print(monthConversions.get("Fake","default"))3
+print(monthConversions.get("Fake","default"))
 
+#-----------------------------------while loop-----------------------------------------------
+i=1
+while i<=10:
+    print(i);
+    i+=1
+
+#---------------------------------Factorial using while--------------------------------------
+def factorial(num):
+    fact=1
+    while num >= 1:
+        fact=fact *num;
+        num-=1
+    return fact
+num=int(input("Enter number to calculate factorial"))
+if num <=0:
+    print("Enter number bigger than 0 and 1");
+fact=factorial(num)
+print(fact);
 
 
